@@ -1,0 +1,13 @@
+{%extends "layout.html"%}
+
+
+{%block content%}
+<div class="container">
+
+    <h3>Home Page Scrapy APP</h3>
+<h4 class="text-primary">logged in sitem as {{ current_user.user_name.title()}}</h4>
+</div>
+<div class="container">
+    <span class="label laber-success"><a href="{{url_for('authentication.scraping_data')}}">Scrapig</a></span>
+</div>
+{%endblock content%}

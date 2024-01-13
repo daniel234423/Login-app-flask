@@ -9,13 +9,14 @@
     {%endif%}
     {%if links%}
     {%for link in links%}
-        <ul>
-            <li><a href="{{link}}" target="_blank">ITEM</a></li>
-        </ul>
-        {%endfor%}
-        {%endif%}
-        <div class="container">
-            <span class="label laber-success"><a href="{{url_for('authentication.homepage')}}">Back to home page</a></span>
-        </div>
+    <ul>
+        <li><a href="{{link}}" target="_blank">ITEM</a></li>
+    </ul>
+    {%endfor%}
+    {%endif%}
+    <div class="container" id="btn-home-page">
+        <span id="home" class="label laber-success"><a href="{{url_for('authentication.homepage')}}">Home</a></span>
+    </div>
 </div>
+
 {%endblock content%}

@@ -7,6 +7,6 @@ WTForms
 SQLAlchemy
 Flask-WTF
 email_validator
-BeautifulSoup
-request
+beautifulsoup4
+requests
 lxml

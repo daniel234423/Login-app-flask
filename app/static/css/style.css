@@ -1,0 +1,93 @@
+*{
+    font-weight: bold;
+}
+body {
+    background: linear-gradient(to right, #A6A6A6, #FFFFFF);
+}
+.navbar {
+    display: flex!important;
+    justify-content: space-around!important;
+}
+#home-page {
+    display: flex!important;
+    justify-content: center!important;
+}
+#text {
+    margin: 1% !important;
+}
+.navbar-brand {
+    font-weight: bold !important;
+}
+.nav-item a {
+    text-decoration: none!important;
+    padding: 9% !important;
+    color: black !important;
+}
+
+
+#btn-scraping {
+    width: 100%!important;
+    display: flex !important;
+    justify-content: center!important;
+    margin-top: 5em !important;
+}
+#btn-scraping a {
+    color: black!important;
+    text-decoration: none !important;
+    padding: 10% !important;
+    border: 2px solid black !important;
+    background-color: white!important;
+    border-radius:6px !important ;
+}
+.form {
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: center !important;
+}
+#search_article {
+    margin-bottom: 1% !important;
+    width: 50em !important;
+}
+#search {
+    background-color: white;
+    font-weight: bold;
+    margin-top: 1em !important;
+    margin-right: 90.5% !important;
+    border: 2px solid black !important;
+    border-radius: 6px !important;
+}
+.form h3 {
+    margin-right: 63% !important;
+    margin-top: 1em!important;
+    margin-bottom: 1em!important;
+    font-weight: bold;
+}
+.control-label {
+    margin-bottom: 1% !important;
+}
+.required {
+    width: 50em !important;
+}
+#submit {
+    background-color: white !important;
+    margin-top: 1em !important;
+    margin-right: 92% !important;
+}
+.checkbox {
+    width: 50em !important;
+}
+#home {
+    background-color: white !important;
+    border: 2px solid black !important;
+    border-radius: 6px !important;
+    padding: 0.5% 1.4% !important;
+    margin-left: 13.2% !important;
+}
+#home a {
+    text-decoration: none !important;
+    color: black !important;
+}
+#btn-home-page {
+    margin-top: 1em !important;
+}
